@@ -101,7 +101,7 @@
 
                 <div class="mt-5 p-2 d-flex align-items-center">
                     <img src="https://scholar.googleusercontent.com/citations?view_op=view_photo&user=2dLbUYoAAAAJ&citpid=2"
-                        class="rounded-circle me-2">
+                        class="rounded-circle me-2" width="50px" height="50px">
                     <small>Rony Heri Irawan, M.Kom. <br> <span class="text-muted">Account settings</span></small>
                 </div>
                 <button class="btn btn-magenta w-100 mt-4">LOG OUT <i class="bi bi-arrow-right"></i></button>
