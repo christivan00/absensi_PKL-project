@@ -4,13 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login - PKL Dashboard</title>
+    <title>Login - Absensi Dashboard</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
     <style>
         body {
-            background-color: #0b0e1e;
-            color: white;
+            background-color: #fdfdff;
+            color: rgb(0, 0, 0);
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             height: 100vh;
             display: flex;
@@ -19,7 +19,7 @@
         }
 
         .login-card {
-            background-color: #12162d;
+            background-color: #fcfcff;
             border-radius: 20px;
             padding: 40px;
             width: 100%;
@@ -28,24 +28,23 @@
         }
 
         .form-control {
-            background-color: #1a1f3d;
-            border: 1px solid #2d3250;
+            background-color: #fefeff;
+            border: 1px solid #afafaf;
             color: white;
             border-radius: 10px;
             padding: 12px;
         }
 
         .form-control:focus {
-            background-color: #1a1f3d;
-            border-color: #d63384;
-            color: white;
+            background-color: #c7c7c7;
+            color: rgb(44, 44, 44);
             box-shadow: none;
         }
 
         .btn-magenta {
-            background: linear-gradient(90deg, #9c27b0, #e91e63);
+            background: #c7c7c7;
             border: none;
-            color: white;
+            color: rgb(0, 0, 0);
             padding: 12px;
             border-radius: 10px;
             font-weight: bold;
@@ -54,13 +53,14 @@
         }
 
         .btn-magenta:hover {
+            background-color: #5a5a5a;
             transform: translateY(-2px);
-            color: white;
+            color: rgb(190, 190, 190);
             opacity: 0.9;
         }
 
         .text-magenta {
-            color: #d63384;
+            color: #002cf0;
         }
     </style>
 </head>
@@ -68,18 +68,18 @@
 <body>
     <div class="login-card">
         <div class="text-center mb-4">
-            <h2 class="fw-bold">Welcome Back</h2>
-            <p class="text-muted">Login to your PKL account</p>
+            <h2 class="fw-bold">WEB ABSENSI</h2>
+            <p class="text-muted">Login to your absensi account</p>
         </div>
 
         <form>
             <div class="mb-3">
                 <label for="username" class="form-label text-muted">Username</label>
-                <input type="text" class="form-control" id="username" placeholder="Enter your username">
+                <input type="text" class="form-control" id="username" placeholder="username">
             </div>
             <div class="mb-3">
                 <label for="password" class="form-label text-muted">Password</label>
-                <input type="password" class="form-control" id="password" placeholder="Enter your password">
+                <input type="password" class="form-control" id="password" placeholder="password">
             </div>
             <div class="mb-4 form-check">
                 <input type="checkbox" class="form-check-input" id="remember">
