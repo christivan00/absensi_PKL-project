@@ -71,9 +71,9 @@
                 </div>
 
                 <nav class="d-flex flex-column gap-2">
-                    <button href="dashboard">Dashboard</button>
-                    <button href="dashboard">Dashboard</button>
-                    <button href="dashboard">Dashboard</button>
+                    <a href="{{ route('dashboard') }}" class="btn btn-outline-custom color-3">Dashboard</a>
+                    <a href="{{ route('dashboard') }}" class="btn btn-outline-custom color-3">Dashboard</a>
+                    <a href="{{ route('dashboard') }}" class="btn btn-outline-custom color-3">Dashboard</a>
                 </nav>
 
                 <!-- akun user-->
@@ -84,8 +84,8 @@
                     </div>
                     <h6>Rony Heri Irawan, M.Kom. <br> <span class="text-muted">Account settings</span></h6>
                 </div>
-                <button class="btn btn-magenta w-100 mt-4 color-3"><a href="{{ route('login') }}">LOG OUT</a><i
-                        class="bi bi-arrow-right"></i></button>
+                <a href="{{ route('login') }}" class="btn btn-magenta w-100 mt-4 color-3">LOG OUT <i
+                        class="bi bi-arrow-right"></i></a>
             </div>
 
             <!-- main boarddd -->
